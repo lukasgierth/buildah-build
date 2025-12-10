@@ -151,4 +151,10 @@ export enum Outputs {
      * Default: None.
      */
     TAGS = "tags",
+    /**
+     * Digest of the built image
+     * Required: false
+     * Default: None.
+     */
+    DIGEST = "digest",
 }
